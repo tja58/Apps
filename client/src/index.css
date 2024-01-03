@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  /* DBS Colors */
+  --primary-1: rgba(21, 30, 47, 1);
+  --primary-2: #15202b;
+  --primary-3: #22303c;
+  --primary-4: #27374d;
+  --primary-5: #526d82;
+  --primary-6: #8899ac;
+  --primary-7: #9db2bf;
+  --primary-8: #dde6ed;
+  --primary-9: #ffffff;
+
+  --primary: #77d4fc;
+  --secondary: #4b91f1;
+  --secondary-hover: #418af1;
+
+  --white: #ffffff;
+  --gray-light: #f5f5f5;
+  --gray-light-2: #ebebeb;
+  --gray: #d6d6d6;
+  --gray-dark: #3d3d3d;
+  --gray-dark-2: #1f1f1f;
+  --black: #000000;
+
+  --light-blue: #304566;
+  --light-blue-2: #243653;
+  --blue: #16263e;
+  --dark-blue: #0c1727;
+  --blue-1: rgba(21, 30, 47, 1);
+  --blue-2: #15202b;
+  --blue-3: #22303c;
+  --blue-4: #27374d;
+  --blue-5: #334763;
+
+  --dark-1: #636363;
+  --dark-2: #3b3b3b;
+  --dark-3: #222222;
+  --dark-4: #141414;
+  --dark-5: #000000;
+  --dark-6: #1f1f1f;
+
+  --light-1: #b8b8b8;
+  --light-2: #cccccc;
+  --light-3: #d6d6d6;
+  --light-4: #ebebeb;
+  --light-5: #ffffff;
+
+  --gray-1: #000000;
+  --gray-2: #080808;
+  --gray-3: #101010;
+  --gray-4: #181818;
+  --gray-5: #202020;
+  --gray-6: #282828;
+  --gray-7: #303030;
+  --gray-8: #383838;
+  --gray-9: #404040;
+  --gray-10: #484848;
+  --gray-11: #505050;
+  --gray-12: #585858;
+  --gray-13: #606060;
+  --gray-14: #686868;
+  --gray-15: #696969;
+  --gray-16: #707070;
+  --gray-17: #787878;
+  --gray-18: #808080;
+  --gray-19: #888888;
+  --gray-20: #909090;
+  --gray-21: #989898;
+  --gray-22: #a0a0a0;
+  --gray-23: #a8a8a8;
+  --gray-24: #a9a9a9;
+  --gray-25: #b0b0b0;
+  --gray-26: #b8b8b8;
+  --gray-27: #bebebe;
+  --gray-28: #c0c0c0;
+  --gray-29: #c8c8c8;
+  --gray-30: #d0d0d0;
+  --gray-31: #d3d3d3;
+  --gray-32: #d8d8d8;
+  --gray-33: #dcdcdc;
+  --gray-34: #e0e0e0;
+  --gray-35: #e8e8e8;
+  --gray-36: #f0f0f0;
+  --gray-37: #f5f5f5;
+  --gray-38: #f8f8f8;
+  --gray-39: #ffffff;
+
+  --clock-out: #d2042d;
+  --clock-in: #228b22;
+  --error: #cb4154;
+}
+
+html {
+  display: block;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Inter;
+}
+
+.Ctnr {
+  min-height: calc(100vh - 225.8px);
+  max-height: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#root {
+  position: relative;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+*::after,
+*::before {
+  display: block;
+  box-sizing: border-box;
+}

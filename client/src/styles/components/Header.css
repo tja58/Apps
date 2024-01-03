@@ -1,0 +1,62 @@
+.a-header {
+  width: 100vw;
+  display: flex;
+  padding: 0px 30px;
+  background-color: var(--dark-3);
+  box-sizing: border-box;
+  position: relative;
+}
+.a-header > div,
+.a-header a {
+  color: white;
+  text-decoration: none;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 15px 0;
+}
+.a-links {
+  height: 100%;
+  font-size: 1rem;
+  display: flex;
+  gap: 25px;
+  padding: 0 30px;
+}
+
+.a-header a:hover {
+  text-decoration: underline;
+}
+
+.a-head-drop {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.a-head-drop-links {
+  min-width: max-content;
+  display: none;
+  flex-direction: column;
+  background-color: var(--gray-8);
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  padding: 20px;
+  gap: 15px;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 5;
+}
+
+.a-head-drop:hover > .a-head-drop-links,
+.a-head-drop-links:hover > .a-head-drop-links {
+  display: flex;
+}
